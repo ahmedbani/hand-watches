@@ -1,5 +1,6 @@
 var name = prompt("Enter your name please ")
 
+
 confirm("Hi "+ name +"This your name correct! " );
 var type=prompt("whats the type of watches you are looking for ?")
 
