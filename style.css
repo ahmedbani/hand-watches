@@ -1,0 +1,32 @@
+body{
+  background-color: #125D98
+  
+}
+nav{
+  float: right;
+}
+ul{
+  float: right;
+  margin-right: 30px;
+  margin-top: 0px;
+  
+}
+
+li a{
+ text-decoration: none;
+}
+
+}
+p{
+  color: white;
+  background-color: #F5A962;
+  padding : 30px;
+}
+h1{
+  margin-top: 0px;
+}
+.image{
+  margin-left: 500px ;
+  display: inline-block;
+ 
+}
