@@ -8,6 +8,7 @@ while(type!="Analog watch" && type!="Digital watch" && type!= "Automatic watch" 
  type = prompt("please enter the type of the watch again ")
 }
 var count= prompt("rate the " + type +"from 1 to 10")
+function watchType(type){
 
 if(type == "Analog watch"){
   document.write("<p>"+"nice choice you can check out the analog watches we have."+"</p>") 
@@ -83,3 +84,5 @@ else if(type == "Luxury watch"){
   }
 else {
   document.write("<p>"+"Sorry we don't have this type of watches ."+"</p>")}
+}
+watchType(type);
