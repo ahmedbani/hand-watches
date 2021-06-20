@@ -3,10 +3,13 @@ var name = prompt("Enter your name please ")
 
 confirm("Hi "+ name +"This your name correct! " );
 var type=prompt("whats the type of watches you are looking for ?")
-
+function checkType(type){
 while(type!="Analog watch" && type!="Digital watch" && type!= "Automatic watch" && type!= "Chronograph watch" && type!="Diving watch" && type!= "Quartz watch" && type!= "Mechanical watch" && type!= "Pilot watch" && type!="Field watch" && type!="Smart watch" && type!="Luxury watch"){
  type = prompt("please enter the type of the watch again ")
 }
+return type;
+}
+checkType(type);
 var count= prompt("rate the " + type +"from 1 to 10")
 function watchType(type){
 
